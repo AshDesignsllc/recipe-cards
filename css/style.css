@@ -118,3 +118,41 @@ main {
 .time-details strong {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* DIRECTIONS SECTION */
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 10px;
+}
+
+.recipe h3 {
+    padding: 5px;
+    text-transform: uppercase;
+    color: hsl(3,84%,65%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-top: 1px solid hsl(0,0%,23%);
+    border-bottom: 1px solid hsl(0,0%,23%);
+}
+
+.ingredients ul {
+    padding-left: 15px;
+    list-style:square;
+    line-height: 24px;
+}
+
+.directions ol {
+    padding-left: 15px;
+    line-height: 22px;
+}
